@@ -1,0 +1,1 @@
+['Membangun buat_video.py berukuran 1065 B untuk promo 24 detik 1280x720.', 'Meloloskan QC kode dan media dalam 1,2 detik dengan 0 temuan.', 'Mengunci enam kartu teks, transisi, dan musik senyap dalam satu skrip.']
