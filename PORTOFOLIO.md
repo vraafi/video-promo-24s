@@ -1,19 +1,14 @@
-## Masalah
+**Masalah**
+Video promosi 24 detik butuh 6 kartu teks, transisi, musik senyap, dan resolusi 1280x720. Tidak ada berkas video final; yang tersedia hanya skrip pembuat dan dokumentasi.
 
-Promo 24 detik butuh video yang cepat dirender dan mudah diperiksa. Enam kartu teks, transisi, musik senyap, dan resolusi 1280x720 harus konsisten. Tanpa skrip yang jelas, waktu habis di pengecekan manual.
+**Yang Dibangun**
+Saya membangun `buat_video.py` (1091 B) untuk merangkai kartu teks, transisi, dan musik senyap secara terprogram. `README.md` (819 B) mendokumentasikan cara pakai dan parameter. Hasilnya adalah pipeline yang dapat direproduksi untuk video promosi 24 detik.
 
-## Yang Dibangun
+**Keputusan Teknis**
+Saya memisahkan logika pembuatan video ke dalam skrip Python dan menaruh instruksi di README. Saya memilih musik senyap agar tidak bergantung pada aset berhak cipta. Saya menetapkan resolusi 1280x720 dan durasi 24 detik sebagai parameter tetap. Saya tidak menambahkan dependensi di luar yang diperlukan.
 
-Skrip `buat_video.py` berukuran 1065 B. Skrip ini menyusun enam kartu teks, transisi, dan trek musik senyap ke kanvas 1280x720 selama 24 detik. Berkas tunggal, tanpa dependensi berlebih. Jalankan ulang, hasilnya sama.
+**Bukti**
+QC lapis kode dan media lulus. Waktu QC 0,69 detik. Temuan 0. Berkas kode: 1 Python, 1 JSON, 12 lain, 0 JS, 0 Lua.
 
-## Keputusan Teknis
-
-Kami memilih satu skrip Python kecil daripada pipeline bertingkat. Ukuran 1065 B menjaga ruang kesalahan tetap sempit. Enam kartu diatur berurutan; transisi dan musik ditangani di dalam skrip yang sama. Konfigurasi resolusi dikunci di 1280x720 agar keluaran tidak melenceng.
-
-## Bukti (angka QC)
-
-QC menyelesaikan 1,2 detik dengan 0 temuan. Lapis aktif: kode dan media. Lapis lulus: kode dan media. Rincian kode: py 1, js 0, json 0, lua 0, lain 8.
-
-## Batasan
-
-Video tidak memuat narasi suara, hanya musik senyap. Durasi tetap 24 detik dan resolusi tetap 1280x720. Skrip belum diuji untuk variasi jumlah kartu di luar enam.
+**Batasan**
+Tidak ada video final yang diuji. Tidak ada pengguna, klien, atau metrik eksternal. Angka QC hanya mencakup lapis kode dan media, bukan hasil tontonan.

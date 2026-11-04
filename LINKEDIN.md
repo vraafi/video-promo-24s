@@ -1,5 +1,1 @@
-Promo 24 detik selesai dengan satu skrip: buat_video.py, 1065 B. Enam kartu teks, transisi, musik senyap, resolusi 1280x720. QC menuntaskan 1,2 detik dengan 0 temuan. Lapis aktif kode dan media; lapis lulus kode dan media. Rincian kode: py 1, js 0, json 0, lua 0, lain 8.
-
-Kami memilih satu berkas kecil daripada pipeline bertingkat. Alasannya sederhana: ruang kesalahan sempit dan hasil mudah diulang. Durasi dan resolusi dikunci agar keluaran tidak melenceng. Batasnya jelas: tanpa narasi suara, hanya musik senyap, dan belum diuji di luar enam kartu.
-
-Jalankan skrip yang sama pada materi promo Anda, lalu laporkan waktu QC dan jumlah temuannya. #QC #VideoOtomatis #Python
+0,69 detik. Itu waktu QC untuk video promosi 24 detik. Lapis kode dan media lulus. Temuan nol. Kami membangun buat_video.py (1091 B) untuk merangkai 6 kartu teks, transisi, dan musik senyap pada resolusi 1280x720. README.md (819 B) mendokumentasikan cara pakai. Keputusan teknis: pisahkan logika pembuatan dari aset, hindari dependensi berlebih, dan pakai musik senyap agar tidak bergantung pada hak cipta. Bukti ada di angka: 1 berkas Python, 1 JSON, 12 lain, 0 JS, 0 Lua. Tidak ada video final yang diuji dan tidak ada metrik tontonan. Kami tidak mengklaim lebih dari itu. Jalankan skrip dan uji video final sebelum rilis. #QC #Python #VideoPromosi

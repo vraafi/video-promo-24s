@@ -1,47 +1,47 @@
 """Naskah & parameter video Promo 24 detik — dibangun trust_test."""
 NASKAH = {
- "judul": "Promo 24 Detik",
+ "judul": "Promo 24 detik",
  "adegan": [
   {
-   "judul": "Kartu 1 - Pembuka",
+   "judul": "Hook",
    "baris": [
-    "Kenalkan produk Anda dalam 24 detik",
-    "Enam kartu teks, transisi mulus, musik senyap"
+    "Butuh promosi singkat yang tetap berkesan?",
+    "Promo 24 detik hadir untuk brand Anda."
    ]
   },
   {
-   "judul": "Kartu 2 - Masalah",
+   "judul": "Masalah",
    "baris": [
-    "Banyak ide, sedikit waktu untuk promosi",
-    "Solusi cepat tanpa produksi rumit"
+    "Waktu audiens terbatas, perhatian cepat hilang.",
+    "Video panjang sering dilewati begitu saja."
    ]
   },
   {
-   "judul": "Kartu 3 - Solusi",
+   "judul": "Solusi",
    "baris": [
-    "Template video 24 detik siap pakai",
-    "Cukup ganti teks, lalu ekspor"
+    "Enam kartu teks, transisi halus, musik senyap.",
+    "Pesan jelas tanpa distraksi berlebihan."
    ]
   },
   {
-   "judul": "Kartu 4 - Fitur",
+   "judul": "Format",
    "baris": [
-    "Resolusi 1280x720, format ringan",
-    "Transisi halus dan musik senyap"
+    "Resolusi 1280x720, siap tayang di semua layar.",
+    "Durasi pas 24 detik untuk media sosial."
    ]
   },
   {
-   "judul": "Kartu 5 - Manfaat",
+   "judul": "Manfaat",
    "baris": [
-    "Hemat waktu, konsisten setiap hari",
-    "Cocok untuk media sosial dan iklan"
+    "Cocok untuk iklan, pengumuman, dan kampanye.",
+    "Produksi cepat, biaya tetap efisien."
    ]
   },
   {
-   "judul": "Kartu 6 - Ajakan",
+   "judul": "Ajakan",
    "baris": [
-    "Mulai promosi 24 detik Anda sekarang",
-    "Satu klik, langsung siap tayang"
+    "Pesan slot promo 24 detik Anda hari ini.",
+    "Brand Anda layak tampil ringkas dan tajam."
    ]
   }
  ]

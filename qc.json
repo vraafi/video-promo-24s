@@ -26,13 +26,13 @@
    "jumlah_berkas": {
     "py": 1,
     "js": 0,
-    "json": 0,
+    "json": 1,
     "lua": 0,
-    "lain": 8
+    "lain": 12
    },
-   "jumlah_diperiksa": 9,
-   "detik": 1.2,
-   "diperiksa": "2026-11-03T14:04:17+07:00"
+   "jumlah_diperiksa": 14,
+   "detik": 0.69,
+   "diperiksa": "2026-11-04T21:27:15+07:00"
   },
   "visual": {
    "lapis": "visual",
@@ -42,7 +42,7 @@
    "vonis": "tidak berlaku",
    "temuan": [],
    "sebab": "tidak ada URL UI",
-   "diperiksa": "2026-11-03T14:04:17+07:00"
+   "diperiksa": "2026-11-04T21:27:15+07:00"
   },
   "pengguna": {
    "lapis": "pengguna",
@@ -52,7 +52,7 @@
    "vonis": "tidak berlaku",
    "temuan": [],
    "sebab": "tidak ada URL UI",
-   "diperiksa": "2026-11-03T14:04:17+07:00"
+   "diperiksa": "2026-11-04T21:27:15+07:00"
   },
   "media": {
    "lapis": "media",
@@ -63,9 +63,9 @@
    "detik_video": 28.0,
    "ketajaman": {
     "ok": true,
-    "median": 661.2,
-    "median_rasio": 113.24,
-    "min": 572.6,
+    "median": 566.4,
+    "median_rasio": 145.24,
+    "min": 521.8,
     "frame_diukur": 8,
     "lebar_px": 640,
     "ambang": {
@@ -75,12 +75,19 @@
     "sebab": "",
     "gagal": []
    },
-   "ukuran": 129872,
+   "ukuran": 121962,
    "resolusi": "1280x720"
   }
  },
- "detik": 1.2,
- "diperiksa": "2026-11-03T14:04:17+07:00",
+ "override_deterministik": {
+  "diterapkan": false,
+  "hijau": true,
+  "dibatalkan": [],
+  "bertahan": [],
+  "catatan": ""
+ },
+ "detik": 0.69,
+ "diperiksa": "2026-11-04T21:27:15+07:00",
  "target": "C:\\Users\\user\\otonom-penuh\\workspace\\trust-test\\video-promo-24s",
  "url": null
 }
