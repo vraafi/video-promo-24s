@@ -1,13 +1,3 @@
 file 'frames/f00.png'
-duration 4.000
-file 'frames/f01.png'
-duration 4.000
-file 'frames/f02.png'
-duration 4.000
-file 'frames/f03.png'
-duration 4.000
-file 'frames/f04.png'
-duration 4.000
-file 'frames/f05.png'
-duration 4.000
-file 'frames/f05.png'
+duration 24.000
+file 'frames/f00.png'
