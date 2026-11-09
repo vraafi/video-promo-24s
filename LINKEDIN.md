@@ -1,1 +1,7 @@
-0,69 detik. Itu waktu QC untuk video promosi 24 detik. Lapis kode dan media lulus. Temuan nol. Kami membangun buat_video.py (1091 B) untuk merangkai 6 kartu teks, transisi, dan musik senyap pada resolusi 1280x720. README.md (819 B) mendokumentasikan cara pakai. Keputusan teknis: pisahkan logika pembuatan dari aset, hindari dependensi berlebih, dan pakai musik senyap agar tidak bergantung pada hak cipta. Bukti ada di angka: 1 berkas Python, 1 JSON, 12 lain, 0 JS, 0 Lua. Tidak ada video final yang diuji dan tidak ada metrik tontonan. Kami tidak mengklaim lebih dari itu. Jalankan skrip dan uji video final sebelum rilis. #QC #Python #VideoPromosi
+Promo 24 detik: Video promosi 24 detik: 6 kartu teks, transisi, musik senyap, resolusi 1280x720.
+
+QC: kode, media. 0.83 detik. 0 temuan ditutup.
+
+Kami tidak mengirim karya sebelum gerbangnya lulus. Hubungi kami kalau butuh produk seperti ini.
+
+#softwarehouse #engineering

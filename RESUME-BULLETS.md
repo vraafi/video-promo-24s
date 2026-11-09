@@ -1,1 +1,2 @@
-['Membangun buat_video.py (1091 B) untuk video promosi 24 detik, 1280x720.', 'Meloloskan QC lapis kode dan media dalam 0,69 detik, temuan 0.', 'Menyusun README.md (819 B) dan 1 berkas Python dari 14 berkas kode.']
+- Membangun Promo 24 detik (video) dan meluluskan lapis QC kode, media.
+- Menutup 0 temuan QC dalam 0.83 detik.
